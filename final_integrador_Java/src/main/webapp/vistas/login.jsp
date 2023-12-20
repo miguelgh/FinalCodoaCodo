@@ -5,14 +5,23 @@
         <title>Login</title>
         <!-- Incluir Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!--Css-->
+        <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
-
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark p-0 pt-3" data-bs-theme="dark">
+                <div class="container-lg align-items-end">
+                  <a href="#"><img class="navbar-brand" src="../img/logo.svg" alt="Atrezzo ideas gráficas" /></a>
+                </div>
+            </nav>
+        </header>
+        <div class="separador"></div>
         <div class="container mt-5">
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body login">
                             <h2 class="card-title text-center">Iniciar Sesión</h2>
                             <form action="LoginServlet" method="post" class="mt-4">
                                 <div class="form-group">

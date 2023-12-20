@@ -8,8 +8,18 @@
         <meta charset="UTF-8">
         <title>Gestión de clientes</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!--Css-->
+        <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark p-0 pt-3" data-bs-theme="dark">
+                <div class="container-lg align-items-end">
+                  <a href="#"><img class="navbar-brand" src="../img/logo.svg" alt="Atrezzo ideas gráficas" /></a>
+                </div>
+            </nav>
+        </header>
+        <div class="separador"></div>
         <div class="container mt-5">
             <h2>Gestión de clientes</h2>
             <table class="table table-bordered">
@@ -67,7 +77,7 @@
                     %>
                 </tbody>
             </table>
-            <a href="../" class="btn btn-success">Volver</a>   
+            <a href="../" class="btn btn-primary">Volver</a>   
         </div>
     </body>
 </html>
