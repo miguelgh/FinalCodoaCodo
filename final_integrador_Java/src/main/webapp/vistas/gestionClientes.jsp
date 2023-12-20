@@ -1,6 +1,6 @@
 <%@page import="dao.ClientesDAO"%>
 <%@page import="java.util.List"%>
-<%@page import="modelo.cliente"%>
+<%@page import="modelo.Cliente"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

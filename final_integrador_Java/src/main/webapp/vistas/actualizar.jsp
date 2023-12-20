@@ -10,7 +10,7 @@
     <body>
         <div class="container mt-5">
             <h2>Actualizar cliente</h2>
-            <form action="GestionOradorServlet" method="post">
+            <form action="GestionClienteServlet" method="post">
                 <input type="hidden" name="accion" value="confirmarActualizacion">
                 <input type="hidden" name="id" value="${cliente.idCliente}">
 
@@ -35,7 +35,7 @@
                 </div>
 
                 <button type="submit" class="btn btn-primary">Actualizar</button>
-                <a href="gestionOradores.jsp" class="btn btn-success">Volver</a>
+                <a href="gestionClientes.jsp" class="btn btn-success">Volver</a>
 
             </form>
         </div>

@@ -1,9 +1,9 @@
-
 package controlador;
 
 import dao.ClientesDAO;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import modelo.Cliente;
@@ -11,7 +11,7 @@ import java.io.IOException;
 
 
 @WebServlet("/vistas/GestionClienteServlet")
-public class GestionClienteServlet {
+public class GestionClienteServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String accion = request.getParameter("accion");
         ClientesDAO clientesDAO = new ClientesDAO();

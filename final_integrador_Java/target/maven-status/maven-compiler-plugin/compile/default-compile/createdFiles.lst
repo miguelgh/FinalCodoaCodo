@@ -2,3 +2,5 @@ util\ConexionDB.class
 dao\ClientesDAO.class
 controlador\RegistroCliente.class
 modelo\Cliente.class
+controlador\GestionClienteServlet.class
+controlador\LoginServlet.class
