@@ -1,0 +1,261 @@
+/* General */
+h3{
+    font-weight: 400;
+}
+
+/*boton Subir*/
+.subir{
+    position: fixed;
+    z-index: 10;
+    bottom: 15px;
+    right: 10px;
+    opacity: 0.9;
+}
+.subir a{
+    padding: 20px;
+    background-color: #F48712;
+    color: white;
+}
+/*fin boton*/
+
+/*Nav*/
+.nav-item a:hover{
+    /* background-color: #803d10; */
+    background-color: #11484F;
+}
+.active{
+    /* background-color: #ff6500; */
+    background-color: #0C979C
+}
+.active:hover{
+    background-color: #096d7a!important;
+}
+.separador{
+    width: 100%;
+    height: 4px;
+    background: rgb(255,101,0);
+    background: radial-gradient(circle, rgba(255,101,0,1) 0%, rgba(255,145,22,1) 54%, rgba(129,68,0,1) 100%);
+}
+/*fin nav*/
+
+
+/* carrusel */
+.carousel-item{
+    height: 500px;
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.texto{
+    width: 50%;
+}
+.texto h2{
+    color: #F48712;
+    font-weight: 300;
+}
+.foto{
+    width: 50%;
+}
+.foto img{
+    width: 100%;
+    max-width: 410px;
+}
+@media screen and (max-width: 1000px){
+    .carousel-item{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .carousel-item{
+        height: 300px;
+    }
+    .carousel-caption{
+        bottom: 3.25rem;
+    }
+    .texto{
+        width: 100%;
+    }
+    .foto{
+        display: none;
+    }
+}
+/* fin carrusel */
+
+
+/* hacemos */
+.hacemos h2{
+    color: #F48712;
+    font-weight: 400;
+}
+.hacemos h3{
+    color: #F48712;
+}
+.hacemos p{
+    color: #333;
+}
+/* fin hacemos */
+
+
+/* trabajos */
+.trabajos{
+    width: 100%;
+    padding: 30px 0px;
+    background: rgb(19,196,203);
+    background: radial-gradient(circle, rgba(19,196,203,1) 0%, rgba(12,151,156,1) 54%, rgba(17,72,79,1) 100%);
+}
+.trabajos h3{
+    color: #0C979C;
+}
+.trabajos p{
+    color: #333;
+}
+.btn-primary{
+    background-color: #F48712;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #c06605;
+}
+.modal-header h1{
+    color: #0C979C;
+    font-weight: 400;
+}
+/* fin trabajos */
+
+/* oferta */
+.oferta{
+    background-color: #F48712;
+    background: linear-gradient(0deg, rgb(190, 101, 0) 0%, rgba(244,103,18,1) 35%, rgba(244,135,18,1) 100%);
+}
+.oferta h2{
+    color: white;
+}
+.oferta .enviar{
+    width: 100%;
+    font-size: 1.2rem;
+}
+/* fin oferta */
+
+/*compra*/
+.comprar{
+    padding-bottom: 30px;
+}
+.comprar h2{
+    color: #11484F;
+    font-weight: 400;
+}
+.promo{
+    border-radius: 10px;
+    background: #0C979C;
+    background: linear-gradient(45deg, rgba(19,196,203,1) 0%, rgba(12,151,156,1) 54%, rgba(12,106,118,1) 100%);
+    padding: 20px 10px;
+    color: white;
+}
+.promo h3{
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+.promo h4{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.promo p{
+    margin-bottom: 0.5rem;
+}
+.ticket h3{
+    color: #11484F
+}
+.ticket p{
+    color: #F48712;
+}
+
+.precio{
+    border-radius: 5px;
+}
+.precio p{
+    color:#0151b5;
+    padding: 0.8rem 0.75rem;
+}
+.botones .btn{
+    width: 90%;
+    margin: 0 auto;
+}
+.botones .resumen{
+    background-color: #0C979C;
+    color: white;
+    transition: all 0.3 ease;
+}
+.resumen:hover{
+    background-color: #096d7a;
+}
+.botones .borrar{
+    background-color: #F48712;
+    color: white;
+    transition: all 0.3 ease;
+}
+.borrar:hover {
+    background-color: #aa5903;
+}
+/*fin compra*/
+
+
+/* contacto */
+.contacto{
+    width: 100%;
+   /* background-color: #F48712;*/
+   background: rgb(190,55,0);
+   background: linear-gradient(0deg, rgba(190,55,0,1) 0%, rgba(244,103,18,1) 35%, rgba(244,135,18,1) 100%);
+}
+.contacto h3{
+    color: white;
+}
+.contacto h4{
+    color: white;
+    font-size: medium;
+    border-bottom:solid 1px #0C979C;
+    padding-bottom: 5px;
+}
+.contacto a{
+    color: white;
+    text-decoration: none;
+}
+.contacto a:hover{
+    color: rgb(250, 236, 172);
+}
+.formulario label{
+    color: #333;
+}
+.formulario textarea{
+    resize: none;
+}
+.enviar{
+    background-color: #0C979C;
+    color: white;
+    transition: all 0.3 ease;
+}
+.enviar:hover{
+    color: white;
+    background-color: #096d7a;
+}
+/* fin contacto */
+
+
+/* footer */
+footer a{
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  transition: all 0.2s ease-in-out;
+}
+footer a:hover{
+    color: #F48712;
+}
+
+footer li {
+    list-style: none;
+}
+footer h3{
+    color: #F48712;
+}
+/* fin footer */
